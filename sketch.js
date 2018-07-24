@@ -92,6 +92,11 @@ function spin () {
   return true;
 }
 
+
+function doubleClicked() {
+  spin();
+}
+
 function setup() {
   createCanvas(720, 600);
   /**
