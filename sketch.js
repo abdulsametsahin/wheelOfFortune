@@ -145,7 +145,7 @@ function draw() {
   // decrement the acceleration every loop to make wheel stop.
   ivme -= 0.001;
 
-  // if the acceleration is smaller then 0, we must to break the loop.
+  // if the acceleration is smaller then 1, we must to break the loop.
   if (ivme <= 0) {
     noLoop();
     // refresh framecount
