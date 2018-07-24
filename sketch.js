@@ -5,7 +5,7 @@
  * 
  * author: Abdulsamet Şahin
  * 
- * ivme: çarkın dönüş hızı, giderek azalıyor bu sayede çark başta hızlı sona doğru yavaş dönüyor.
+ * ivme(acceleration): çarkın dönüş hızı, giderek azalıyor bu sayede çark başta hızlı sona doğru yavaş dönüyor.
  * pies: array, dilimleri içerir
  * count: dilim sayısı
  * angle: her bir dilimin, bir kenarı ile diğer kenarı arasındaki iç açısı
