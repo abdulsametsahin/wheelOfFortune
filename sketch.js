@@ -147,6 +147,7 @@ function draw() {
 
   // if the acceleration is smaller then 1, we must to break the loop.
   if (ivme <= 0) {
+    // breaks the loop
     noLoop();
     // refresh framecount
     frameCount = 0;
