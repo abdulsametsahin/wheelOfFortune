@@ -34,7 +34,7 @@ function onFinished(winner) {
 /**
  * 
  * @param {numeric} ivme 
- * EN: It only runs when the spinning stars.
+ * EN: It only runs when the spinning starts.
  * TR: Çark dönmeye başladığında çalışır.
  */
 function onStarted (ivme) {
@@ -49,7 +49,7 @@ function onStarted (ivme) {
  * @param {numeric} angle 
  * 
  * EN: For trying to guess which pie is going to win but it doesnt working.
- * TR: Hangi dilimin kazanacağınbı tahmin etmeye çalışıyor ama düzgün çalışmıyor.
+ * TR: Hangi dilimin kazanacağını tahmin etmeye çalışıyor ama düzgün çalışmıyor.
  */
 function  whosGonnaWin(ivme, speed, pies, angle) {
   x = ivme;
