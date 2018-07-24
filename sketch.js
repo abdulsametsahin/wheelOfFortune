@@ -95,7 +95,7 @@ function spin () {
 function setup() {
   createCanvas(720, 600);
   /**
-   * To rotate thing by using degrees.
+   * To rotate things by using degrees.
    */
   angleMode(DEGREES);
 
